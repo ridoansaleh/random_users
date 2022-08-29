@@ -11,9 +11,9 @@ const initialState = {
 
 export const fetchUsers = createAsyncThunk(
   "users/fetchUsers",
-  async ({ page, params } = { page: 1, params: '' }) => {
+  async () => {
     const response = await client(
-      `https://randomuser.me/api/?inc=${INCLUDED_DATA}&page=${page}&results=${RESULTS_COUNT}${params}`
+      `https://randomuser.me/api/?inc=${INCLUDED_DATA}&page=1&results=${RESULTS_COUNT}`
     );
     return response.data;
   }
