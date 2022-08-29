@@ -1,7 +1,6 @@
 import { sortString, sortDate } from './utils'
 
 export const INCLUDED_DATA = 'login,name,email,gender,registered'
-// export const SEED_NAME = 'app'
 export const RESULTS_COUNT = 20
 
 export const columns = [
