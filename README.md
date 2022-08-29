@@ -28,4 +28,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Demo
 
-Open this [url](https://random-userss.netlify.app/) to see the live demo.
+Click this [link](https://random-userss.netlify.app/) to see the live demo.
