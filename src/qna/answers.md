@@ -5,14 +5,13 @@ and the new keyword
 
 > Answer:  
 > JavaScript is a prototype based Object Oriented Language, which means it doesn’t have classes, rather it defines behaviors using a constructor function and then reuse it using the prototype.  
-> To apply a similar OOP's feature in JavaScript, we can create a class to deal with inheritance. In class, we have to initialize properties in 'this' object. To create a new object from  
-> the class, we need to instantiate the class with 'new' constructor.
+> To apply a similar OOP's feature in JavaScript, we can create a class to deal with inheritance. In class, we have to initialize properties in 'this' object. To create a new object from the class, we need to instantiate the class with 'new' constructor.
 
 
 2. What is the new class syntax and how to create instance methods, class methods?
 
 > Answer:  
-> Class is a special type of function to create objects. We declare class method by defining its name and parentheses and curly braces (block code).
+> Class is a special type of function to create objects. We declare class method by defining its name with parentheses and curly braces inside the class block.
 
 3. Give an example of how to implement inheritance in ES2015 using extends and super
 
@@ -84,7 +83,7 @@ const myCat = new Cat('Leo', 'run fast')
 6. What are your preferred ways of testing your web application?
 
 > Answer:
-> I prefer unit testing for common components & utility functions and E2E testing for features
+> I prefer unit testing for common components & utility functions and E2E testing for features.
 
 
 7. Which web server do you use? Why? Explain pros and cons of your choice.
