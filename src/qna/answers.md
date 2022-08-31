@@ -87,7 +87,7 @@ const myCat = new Cat('Leo', 'run fast')
 
 
 7. Which web server do you use? Why? Explain pros and cons of your choice.
-> Answer:
+> Answer:  
 > In my professional career, i've never setting a web server since there is DevOps engineer to configure it for us.  
 > But for my learning projects, i usually use Netlify because it easier to deploy with just one click after Github account connected.
 
